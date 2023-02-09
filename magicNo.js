@@ -1,7 +1,7 @@
 var guess = prompt("Enter the whole number");
 var guessNumber = parseInt(guess);
 if (isNaN(guess)){
-    alert("Invalid inout!");
+    alert("Invalid input!");
     window.location.reload(false);
 }
 var tempNumber = guessNumber;
